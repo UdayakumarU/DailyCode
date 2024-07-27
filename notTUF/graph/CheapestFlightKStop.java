@@ -2,7 +2,8 @@
   787. Cheapest Flights Within K Stops
   Link: https://leetcode.com/problems/cheapest-flights-within-k-stops/description/
 
-  Approach : Use array to keep track of cheapest fair to all destination cities and queue the intermediate city with less k stops and minimal cost so far 
+  Approach : Dijkstra's varient
+    Use array to keep track of cheapest fair to all destination cities and queue the intermediate city which has lesser than k stops and minimal cost so far 
   Time complexity : ?
   Space complexity: ?
 */
