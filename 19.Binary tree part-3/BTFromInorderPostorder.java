@@ -2,7 +2,7 @@
 Construct Binary Tree from Inorder and Postorder
 Approach: Root node value of give subtree at last of postOrder (ab+); 
           find the same value postion in inorder (a+b); 
-          left and right of inorder root forms the respective subtrees inorder and find the same from postorder;
+          left and right of inorder root forms the respective subtrees and find the same from postorder;
           call recusrively
 
 Space complexity: O(nlogn)
