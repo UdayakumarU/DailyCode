@@ -13,7 +13,7 @@ class Solution {
         boolean[] visitedCourse = new boolean[numCourses];
         boolean[] completedCourse = new boolean[numCourses];
 
-        for(int course=0; course<numCourses; ++course){
+        for(int course=0; course<numCourses; ++course){ // need to repeat for all vertices since it is a disjoint graph
             if(isCycleExist(course, completedCourse, visitedCourse, preRequisiteCourseMap)){
                 return false;
             }
